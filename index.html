@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student study planner</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h2>Student Study Planner</h2>
+        </header>
+        <main>
+            <div class="form">
+                <form id="taskform">
+                <label for="inp-task" id="task">Task</label>
+                <input type="text" placeholder="Enter the task" id="inp-task">
+                <label for="category-select" id="category">Choose a category</label>
+                <select  id="category-select">
+                    <option value="study" selected>Study</option>
+                    <option value="assignment">Assignment</option>
+                    <option value="personal">Personal</option>
+                </select>
+                <label for="priority-select" id="priority">Priority</label>
+                <select  id="priority-select">
+                    <option value="low" selected>Low</option>
+                    <option value="medium">Medium</option>
+                    <option value="high">High</option>
+                </select>
+                <label for="date-input" id="date">Enter the due date</label>
+                <input type="date" name="Due date" id="date-input">
+                <button id="add-btn" type="submit">Add Task</button>
+                </form>
+        </div>
+        <div id="form-list">
+
+        </div>
+    </main>
+    </div>
+</body>
+</html>
