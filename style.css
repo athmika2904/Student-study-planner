@@ -64,4 +64,23 @@ input:focus, select:focus{
     border: 1px solid brown;
     width: 400px;
     margin: 10px auto;
+    background-color: white;
+    border-radius: 5px;
+    color: brown;
+}
+.delete-btn{
+    margin-bottom: 10px;
+    padding: 5px;
+    width: 100px;
+    border: none;
+    border-radius: 5px;
+    background-color: peachpuff;
+    font-weight: 600;
+    color: brown;
+    transition: 0.25s;
+}
+.delete-btn:hover{
+    background-color:rgb(225, 204, 184);
+    opacity: 0.7;
+    
 }
