@@ -63,7 +63,7 @@ input:focus, select:focus{
 .task-div{
     border: 1px solid brown;
     width: 400px;
-    margin: 10px auto;
+    margin: 10px auto ;
     background-color: white;
     border-radius: 5px;
     color: brown;
@@ -84,3 +84,12 @@ input:focus, select:focus{
     opacity: 0.7;
     
 }
+.completed {
+    text-decoration: line-through;
+    color: rgb(74, 200, 74);
+}
+#checkbox{
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
